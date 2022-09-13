@@ -25,7 +25,7 @@ const Contact = () =>{
     const handleSubmit = async (e) =>{
         e.preventDefault();
         setButtonText("Sending...");
-        const res = await axios.post('http://localhost:5000/contact', {...formData});
+        const res = await axios.post('/contact', {...formData});
         setButtonText("Send!");
         setFormData(defaultData);
         if(res.data.code === 200){
