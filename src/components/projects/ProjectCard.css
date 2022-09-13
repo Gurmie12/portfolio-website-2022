@@ -1,0 +1,39 @@
+
+.projcard-card {
+    position: relative;
+    border-radius: 30px;
+    overflow: hidden;
+    margin-bottom: 24px;
+    color: black;
+}
+.projcard-card:hover {
+    background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+    color: white;
+    opacity: 0.85;
+    transition: 0.4s ease-in-out;
+}
+
+.projcard-card:hover .proj-link{
+    color: white;
+}
+
+.proj-txtx {
+    text-align: center;
+}
+
+.tag-badge {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.link-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.proj-link {
+    color: black;
+    text-decoration: none;
+}
